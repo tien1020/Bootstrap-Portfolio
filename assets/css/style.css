@@ -15,8 +15,6 @@ body {
 .container {
   width: 100%;
   max-width: 960px;
-  margin: 0 auto;
-  clear: both;
 }
 
 h1,
@@ -66,7 +64,7 @@ h3 {
 #logo {
   float: left;
   width: 250px;
-  height: 90px;
+  height: 80px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   font-weight: 700;
@@ -98,7 +96,7 @@ nav a:first-child {
 
 /* footer */
 
-footer {
+.fixed-bottom {
   padding: 30px 0;
   clear: both;
   font-size: 12px;
@@ -122,6 +120,7 @@ h3, h2 {
 #main-container {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
+  
 }
 
 .main-section {
@@ -132,6 +131,7 @@ h3, h2 {
   margin: 0 0 40px;
   background: #ffffff;
   border: 1px solid #dddddd;
+  margin-bottom: 40%;
 }
 
 /* portfolio page */
